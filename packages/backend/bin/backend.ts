@@ -20,11 +20,11 @@ const amplifyHostingStack = new AmplifyHostingStack(
   {
     // Name given to plaintext secret in secretsManager.
     // When creating the token scope on Github, only the admin:repo_hook scope is needed
-    githubOauthTokenName: "staging/bat-website-github-pat-owen",
+    githubOauthTokenName: "staging/bat-website/github-pat-owen",
     // swap for your github username
-    owner: "owen-cole",
+    owner: "bringatrailer-dev",
     // swap for your github frontend repo
-    repository: "bringatrailer-dev/bat-website",
+    repository: "bat-website",
     //pass in any envVars from the above stacks here
     environmentVariables: {
       USERPOOL_ID: authStack.userpool.userPoolId,
