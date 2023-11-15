@@ -7,6 +7,7 @@
     "frontend:build": "cd packages/frontend && npx next build",
     "frontend:start": "cd packages/frontend && npx next start",
     "frontend:lint": "cd packages/frontend && npx next lint",
+    "frontend:amplify-pull":"cd packages/frontend && amplify pull",
     "backend:init": "cd packages/backend && npx cdk init",
     "backend:bootstrap": "cd packages/backend && npx cdk bootstrap",
     "backend:deploy": "cd packages/backend && npx cdk deploy --all"
