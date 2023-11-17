@@ -25,6 +25,7 @@ const amplifyHostingStack = new AmplifyHostingStack(
     owner: "bringatrailer-dev",
     // swap for your github frontend repo
     repository: "bat-website",
+
     //pass in any envVars from the above stacks here
     environmentVariables: {
       USERPOOL_ID: authStack.userpool.userPoolId,
