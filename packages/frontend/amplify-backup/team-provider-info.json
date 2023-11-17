@@ -18,19 +18,6 @@
           "userPoolName": "BATProductUserpool1E338A1E-0x4a4zEyQnmt",
           "webClientId": "5vlla3mckpc4ngsah53gbshujt",
           "nativeClientId": "5vlla3mckpc4ngsah53gbshujt"
-        },
-        "batmonorepowithcdknebcdca920": {
-          "userPoolId": "us-west-2_qYTdefWo5",
-          "userPoolName": "BATProductUserpool1E338A1E-0x4a4zEyQnmt",
-          "webClientId": "5vlla3mckpc4ngsah53gbshujt",
-          "nativeClientId": "5vlla3mckpc4ngsah53gbshujt",
-          "identityPoolId": "us-west-2:4aaea744-fe3e-49b0-8b53-dcb184264568",
-          "identityPoolName": "BATProductIdentityPool",
-          "allowUnauthenticatedIdentities": true,
-          "authRoleArn": "arn:aws:iam::720773116058:role/BATProductIdentityStack-BATProductIdentityPoolAuthe-z0uSodSXMSHs",
-          "authRoleName": "BATProductIdentityStack-BATProductIdentityPoolAuthe-z0uSodSXMSHs",
-          "unauthRoleArn": "arn:aws:iam::720773116058:role/BATProductIdentityStack-BATProductIdentityPoolUnaut-kPKyQkTvnNHv",
-          "unauthRoleName": "BATProductIdentityStack-BATProductIdentityPoolUnaut-kPKyQkTvnNHv"
         }
       }
     }

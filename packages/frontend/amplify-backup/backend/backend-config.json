@@ -1,0 +1,45 @@
+{
+  "auth": {
+    "batmonorepowithcdknef9ef5c52": {
+      "customAuth": false,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito",
+      "serviceType": "imported"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_auth_batmonorepowithcdknef9ef5c52_nativeClientId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "batmonorepowithcdknef9ef5c52"
+        }
+      ]
+    },
+    "AMPLIFY_auth_batmonorepowithcdknef9ef5c52_userPoolId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "batmonorepowithcdknef9ef5c52"
+        }
+      ]
+    },
+    "AMPLIFY_auth_batmonorepowithcdknef9ef5c52_userPoolName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "batmonorepowithcdknef9ef5c52"
+        }
+      ]
+    },
+    "AMPLIFY_auth_batmonorepowithcdknef9ef5c52_webClientId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "batmonorepowithcdknef9ef5c52"
+        }
+      ]
+    }
+  }
+}
