@@ -22,9 +22,9 @@ const amplifyHostingStack = new AmplifyHostingStack(
     // When creating the token scope on Github, only the admin:repo_hook scope is needed
     githubOauthTokenName: "bat-website-cdk-mono",
     // swap for your github username
-    owner: "sleyter2616",
+    owner: "Sleyter2616",
     // swap for your github frontend repo
-    repository: "bat-website",
+    repository: "bat-website-cdk",
 
     //pass in any envVars from the above stacks here
     environmentVariables: {
