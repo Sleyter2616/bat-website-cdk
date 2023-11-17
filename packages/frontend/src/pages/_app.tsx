@@ -3,13 +3,13 @@ import type { WithAuthenticatorProps } from '@aws-amplify/ui-react';
 import { withAuthenticator } from '@aws-amplify/ui-react';
 import '@aws-amplify/ui-react/styles.css';
 import config from '../amplifyconfiguration.json';
+import type { AppProps } from 'next/app';
 Amplify.configure(config);
 
-export function App({ signOut, user }: WithAuthenticatorProps) {
+export function App({ signOut, user, Component, pageProps }: WithAuthenticatorProps & AppProps) {
   return (
     <>
-      <h1>Hello {user?.username}</h1>
-      <button onClick={signOut}>Sign out</button>
+          <Component {...pageProps} />
     </>
   );
 }
