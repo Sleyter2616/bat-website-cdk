@@ -1,14 +1,27 @@
-import '../utils/aws/Amplify'
-import { Authenticator } from '@aws-amplify/ui-react';
-import type { AppProps } from 'next/app';
-import { Amplify } from 'aws-amplify';
+import '../utils/aws/Amplify';
+import { Authenticator, withAuthenticator } from '@aws-amplify/ui-react';
+import '@aws-amplify/ui-react/styles.css';
 import config from '../amplifyconfiguration.json';
+import type { AppProps } from 'next/app';
+import type { WithAuthenticatorProps } from '@aws-amplify/ui-react';
+import { Amplify } from 'aws-amplify';
+
 Amplify.configure(config);
 
-export default function App({ Component, pageProps }: AppProps) {
+function MyApp({ Component, pageProps }: AppProps & WithAuthenticatorProps) {
     return (
         <Authenticator.Provider>
-            <Component {...pageProps} />
+            <Authenticator>
+                {({ signOut, user }) => (
+                    <>
+                        <h1>Hello {user?.username}</h1>
+                        <button onClick={signOut}>Sign out</button>
+                        <Component {...pageProps} />
+                    </>
+                )}
+            </Authenticator>
         </Authenticator.Provider>
     );
 }
+
+export default withAuthenticator(MyApp);
