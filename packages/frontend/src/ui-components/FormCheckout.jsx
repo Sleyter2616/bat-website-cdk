@@ -279,7 +279,7 @@ export default function FormCheckout(props) {
               size="large"
               isDisabled={false}
               variation="primary"
-              children="Continue to payment"
+              children="Submit Form"
               {...getOverrideProps(overrides, "Button")}
             ></Button>
           </Flex>

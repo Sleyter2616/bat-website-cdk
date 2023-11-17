@@ -6,6 +6,7 @@
 
 export { default as ActionCard } from "./ActionCard";
 export { default as Ampligram } from "./Ampligram";
+export { default as Blockquote } from "./Blockquote";
 export { default as CTASection } from "./CTASection";
 export { default as CheckoutPayment } from "./CheckoutPayment";
 export { default as CommentCard } from "./CommentCard";
@@ -18,6 +19,7 @@ export { default as Filters } from "./Filters";
 export { default as FormCheckout } from "./FormCheckout";
 export { default as HeroLayout1 } from "./HeroLayout1";
 export { default as HeroLayout2 } from "./HeroLayout2";
+export { default as InterviewQA } from "./InterviewQA";
 export { default as ItemCard } from "./ItemCard";
 export { default as Light } from "./Light";
 export { default as Logo } from "./Logo";
