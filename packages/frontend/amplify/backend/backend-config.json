@@ -1,6 +1,6 @@
 {
   "auth": {
-    "batmonorepowithcdknebcdca920": {
+    "batmonorepowithcdkdc26d052": {
       "customAuth": false,
       "dependsOn": [],
       "providerPlugin": "awscloudformation",
@@ -9,91 +9,91 @@
     }
   },
   "parameters": {
-    "AMPLIFY_auth_batmonorepowithcdknebcdca920_allowUnauthenticatedIdentities": {
+    "AMPLIFY_auth_batmonorepowithcdkdc26d052_allowUnauthenticatedIdentities": {
       "usedBy": [
         {
           "category": "auth",
-          "resourceName": "batmonorepowithcdknebcdca920"
+          "resourceName": "batmonorepowithcdkdc26d052"
         }
       ]
     },
-    "AMPLIFY_auth_batmonorepowithcdknebcdca920_authRoleArn": {
+    "AMPLIFY_auth_batmonorepowithcdkdc26d052_authRoleArn": {
       "usedBy": [
         {
           "category": "auth",
-          "resourceName": "batmonorepowithcdknebcdca920"
+          "resourceName": "batmonorepowithcdkdc26d052"
         }
       ]
     },
-    "AMPLIFY_auth_batmonorepowithcdknebcdca920_authRoleName": {
+    "AMPLIFY_auth_batmonorepowithcdkdc26d052_authRoleName": {
       "usedBy": [
         {
           "category": "auth",
-          "resourceName": "batmonorepowithcdknebcdca920"
+          "resourceName": "batmonorepowithcdkdc26d052"
         }
       ]
     },
-    "AMPLIFY_auth_batmonorepowithcdknebcdca920_identityPoolId": {
+    "AMPLIFY_auth_batmonorepowithcdkdc26d052_identityPoolId": {
       "usedBy": [
         {
           "category": "auth",
-          "resourceName": "batmonorepowithcdknebcdca920"
+          "resourceName": "batmonorepowithcdkdc26d052"
         }
       ]
     },
-    "AMPLIFY_auth_batmonorepowithcdknebcdca920_identityPoolName": {
+    "AMPLIFY_auth_batmonorepowithcdkdc26d052_identityPoolName": {
       "usedBy": [
         {
           "category": "auth",
-          "resourceName": "batmonorepowithcdknebcdca920"
+          "resourceName": "batmonorepowithcdkdc26d052"
         }
       ]
     },
-    "AMPLIFY_auth_batmonorepowithcdknebcdca920_nativeClientId": {
+    "AMPLIFY_auth_batmonorepowithcdkdc26d052_nativeClientId": {
       "usedBy": [
         {
           "category": "auth",
-          "resourceName": "batmonorepowithcdknebcdca920"
+          "resourceName": "batmonorepowithcdkdc26d052"
         }
       ]
     },
-    "AMPLIFY_auth_batmonorepowithcdknebcdca920_unauthRoleArn": {
+    "AMPLIFY_auth_batmonorepowithcdkdc26d052_unauthRoleArn": {
       "usedBy": [
         {
           "category": "auth",
-          "resourceName": "batmonorepowithcdknebcdca920"
+          "resourceName": "batmonorepowithcdkdc26d052"
         }
       ]
     },
-    "AMPLIFY_auth_batmonorepowithcdknebcdca920_unauthRoleName": {
+    "AMPLIFY_auth_batmonorepowithcdkdc26d052_unauthRoleName": {
       "usedBy": [
         {
           "category": "auth",
-          "resourceName": "batmonorepowithcdknebcdca920"
+          "resourceName": "batmonorepowithcdkdc26d052"
         }
       ]
     },
-    "AMPLIFY_auth_batmonorepowithcdknebcdca920_userPoolId": {
+    "AMPLIFY_auth_batmonorepowithcdkdc26d052_userPoolId": {
       "usedBy": [
         {
           "category": "auth",
-          "resourceName": "batmonorepowithcdknebcdca920"
+          "resourceName": "batmonorepowithcdkdc26d052"
         }
       ]
     },
-    "AMPLIFY_auth_batmonorepowithcdknebcdca920_userPoolName": {
+    "AMPLIFY_auth_batmonorepowithcdkdc26d052_userPoolName": {
       "usedBy": [
         {
           "category": "auth",
-          "resourceName": "batmonorepowithcdknebcdca920"
+          "resourceName": "batmonorepowithcdkdc26d052"
         }
       ]
     },
-    "AMPLIFY_auth_batmonorepowithcdknebcdca920_webClientId": {
+    "AMPLIFY_auth_batmonorepowithcdkdc26d052_webClientId": {
       "usedBy": [
         {
           "category": "auth",
-          "resourceName": "batmonorepowithcdknebcdca920"
+          "resourceName": "batmonorepowithcdkdc26d052"
         }
       ]
     },
