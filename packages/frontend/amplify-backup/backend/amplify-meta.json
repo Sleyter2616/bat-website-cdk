@@ -1,0 +1,51 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-batwebsite-dev-104959-authRole",
+      "UnauthRoleArn": "arn:aws:iam::720773116058:role/amplify-batwebsite-dev-104959-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::720773116058:role/amplify-batwebsite-dev-104959-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-batwebsite-dev-104959-deployment",
+      "UnauthRoleName": "amplify-batwebsite-dev-104959-unauthRole",
+      "StackName": "amplify-batwebsite-dev-104959",
+      "StackId": "arn:aws:cloudformation:us-west-2:720773116058:stack/amplify-batwebsite-dev-104959/f7d155b0-8560-11ee-a055-0a43e9eaa77b",
+      "AmplifyAppId": "d2emcjvri74pd6"
+    }
+  },
+  "auth": {
+    "batmonorepowithcdknef9ef5c52": {
+      "service": "Cognito",
+      "serviceType": "imported",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "output": {
+        "UserPoolId": "us-west-2_qYTdefWo5",
+        "UserPoolName": "BATProductUserpool1E338A1E-0x4a4zEyQnmt",
+        "AppClientID": "5vlla3mckpc4ngsah53gbshujt",
+        "AppClientIDWeb": "5vlla3mckpc4ngsah53gbshujt"
+      },
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": [
+            "REQUIRES_LOWERCASE",
+            "REQUIRES_UPPERCASE",
+            "REQUIRES_NUMBERS",
+            "REQUIRES_SYMBOLS"
+          ]
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      }
+    }
+  }
+}
