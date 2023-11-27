@@ -56,3 +56,6 @@ amplifytools.xcconfig
 .secret-*
 **.sample
 #amplify-do-not-edit-end
+
+amplify-backup/.config/local-aws-info.json
+amplify-backup/.config/local-env-info.json
