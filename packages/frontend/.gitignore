@@ -57,5 +57,10 @@ amplifytools.xcconfig
 **.sample
 #amplify-do-not-edit-end
 
-amplify-backup/.config/local-aws-info.json
-amplify-backup/.config/local-env-info.json
+amplify-backup/\#current-cloud-backend
+amplify-backup/.config/local-*
+amplify-backup/logs
+amplify-backup/mock-data
+amplify-backup/mock-api-resources
+amplify-backup/backend/amplify-meta.json
+amplify-backup/backend/.temp
